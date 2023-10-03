@@ -69,8 +69,8 @@ body{
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     font-size: 25px;
-    box-shadow: 1px 1px 10px red,-1px -1px 10px red;
-    border: 1px solid red;
+    box-shadow: transparent;
+    border: transparent;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     cursor:url(cursor.png),pointer;
