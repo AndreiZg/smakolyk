@@ -65,6 +65,17 @@ body{
     transition: 0.5s;
 }
 
+.btns a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 1px 1px 10px red,-1px -1px 10px red;
+    border: 1px solid red;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:url(cursor.png),pointer;
+    background-color: transparent;
+}
 
 @media (max-width:850px) {
     body{
@@ -93,5 +104,9 @@ body{
         height: 40px;
         width: 180px;
         font-size: 15px;
+    }
+
+    .btns a{
+        padding: 0;
     }
 }

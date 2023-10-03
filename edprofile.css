@@ -73,6 +73,11 @@ input[type='date']{
     height: 60px;
 }
 
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -133,4 +138,24 @@ input[type='file']{
     width: 55%;
     margin: auto;
     height: 55px;
+}
+
+@media (max-width: 790px) {
+    .header{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 490px) {
+    input{
+        height: 45px;
+    }
+
+    .brth input{
+        font-size: 20px;
+    }
+
+    .buttons{
+        padding: 5px;
+    }
 }
