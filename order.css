@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    background-color: rgb(238, 64, 64);
+    background: url('bg.jpg');
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper .days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper .all{
+    border: 1px solid black;
+    padding: 10px;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(238, 64, 64);
+}
+
+.upper .list{
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 3.5px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.upper .p {
+    text-align: center;
+}
+
+.upper .home{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: rgb(238, 64, 64);
+    height: 50px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.grn{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: rgb(238, 64, 64);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.upper .day{
+    text-align: center;
+    border: transparent;
+}
+
+.main{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 12px auto;
+    height: 600px;
+    background-color: rgb(238, 64, 64);
+}
+
+.main select{
+    width: 160px;
+}
+
+.titlu{
+    margin-left: 100px;
+}
+
+.main ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.sq{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.main .frst{
+    margin-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.qnt2{
+    position: relative;
+    right: 16px;
+}
+
+.qnt3{
+    position: relative;
+    left: 27px;
+}
+
+.qnt4{
+    position: relative;
+    left: 35px;
+}
+
+.tst{
+    position: relative;
+    left: 20px;
+}
+
+.prc{
+    position: relative;
+    right: 20px;
+}
+
+.fprc{
+    position: relative;
+    right: 10px;
+}
+
+.frst{
+    position: relative;
+    left: 13px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.days2{
+    display: none;
+}
+
+.b1{
+    border-radius: 10px;
+    padding: 5px;
+    width: 130px;
+    font-size: 25px;
+    background-color: rgb(17, 191, 191);
+    cursor: pointer;
+    margin: auto;
+}
+
+select{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.upper .active{
+    border:3.5px solid green;
+    background-color: rgb(224, 41, 41);
+}
+
+.off {
+    display: none;
+}
+
+.on {
+    display: block;
+}
+
+@media (max-width:960px) {
+    .upper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .upper .all{
+        width: 80%;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    .upper .list{
+        margin-right: 20px;
+        margin-left: 20px;
+        border: 3.5px solid white;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 90%;
+        height: 60px;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .upper .home{
+        width: 70px;
+        font-size: 30px;
+    }
+    .grn{
+        width: 70px;
+        font-size: 20px;
+    }
+    .main h2{
+        font-size: 15px;
+    }
+    .main input{
+        width: 60px;
+    }
+    .main select{
+        width: 100px;
+    }
+    .qnt1{
+        position: relative;
+        right: 15px;
+    }
+    .qnt2{
+        position: relative;
+        right:25px;
+    }
+    
+    .qnt3{
+        position: relative;
+        left: 0;
+    }
+    
+    .qnt4{
+        position: relative;
+        left: 0;
+    }
+    
+    .tst{
+        position: relative;
+        left: 0;
+    }
+    
+    .prc{
+        position: relative;
+        right: 0;
+    }
+    
+    .fprc{
+        position: relative;
+        right: 0;
+    }
+    
+    .frst{
+        position: relative;
+        left: 0;
+    }
+    .sq{
+        width: 50px;
+    }
+}
+
+@media (max-width:700px){
+    .upper .home{
+        width: 50px;
+        font-size: 30px;
+    }
+    .grn{
+        width: 50px;
+        font-size: 20px;
+    }
+    .upper .list{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .qnt1{
+        position: relative;
+        right: 10px;
+    }
+    .qnt2{
+        position: relative;
+        right:10px;
+    }
+    
+    .qnt3{
+        position: relative;
+        left: 10px;
+    }
+    
+    .qnt4{
+        position: relative;
+        left: 20px;
+    }
+}
+@media (max-width:600px){
+    .upper .list{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:500px){
+    .upper .list{
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .upper .home{
+        width: 30px;
+        font-size: 20px;
+    }
+    .grn{
+        width: 30px;
+        font-size: 10px;
+    }
+    .upper .days{
+        display: none;
+    }
+    .upper .days2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main h2{
+        font-size: 10px;
+    }
+    .main input{
+        width: 40px;
+    }
+    .main select{
+        width: 80px;
+    }
+    .prcl{
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media (max-width:350px){
+    .tst{
+        width: 50px;
+    }
+    .prcl{
+        position: relative;
+        left: 10px;
+    }
+    .qnt3{
+        position: relative;
+        left: 5px;
+    }
+    
+    .qnt4{
+        position: relative;
+        left: 10px;
+    }
+}

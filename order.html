@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="home"><a href='home.html'><i class="fa-sharp fa-solid fa-house"></i></a></div>
+        <div class="all">
+            <div class="days">
+                <div class="list active" onclick="activeList()" id="1">1<br>Monday</div>
+                <div class="list" onclick="activeList()" id="2">2<br>Tuesday</div>
+                <div class="list" onclick="activeList()" id="3">3<br>Wednesday</div>
+                <div class="list" onclick="activeList()" id="4">4<br>Thursday</div>
+                <div class="list" onclick="activeList()" id="5">5<br>Friday</div>
+            </div>
+            <div class="days2">
+                <div class="list active" onclick="activeList()" id="1">1<br>Mo.</div>
+                <div class="list" onclick="activeList()" id="2">2<br>Tu.</div>
+                <div class="list" onclick="activeList()" id="3">3<br>We.</div>
+                <div class="list" onclick="activeList()" id="4">4<br>Th.</div>
+                <div class="list" onclick="activeList()" id="5">5<br>Fr.</div>
+            </div>
+        </div>
+        <div class="grn" id="grn">20$</div>
+        <div class="grn off" id="grn2">20$</div>
+        <div class="grn off" id="grn3">20$</div>
+        <div class="grn off" id="grn4">20$</div>
+        <div class="grn off" id="grn5">20$</div>
+    </div>
+    <form id="first" class="off on">
+    <div class="main">
+        <ul>
+            <li><h2 class="frst">First Course</h2></li>
+            <li><h2 class="qnt1">Quantity</h2></li>
+            <li><h2 class="fprc">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2 class="tst">Second Course</h2></li>
+            <li><h2 class="qnt2">Quantity</h2></li>
+            <li><h2 class="prc">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2>Dessert</h2></li>
+            <li><h2 class="qnt3">Quantity</h2></li>
+            <li><h2 class="prcl">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2>Drinks</h2></li>
+            <li><h2 class="qnt4">Quantity</h2></li>
+            <li><h2 class="prcl">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul>
+    </div>
+    </form>
+    <form id="second" class="off">
+    <div class="main">
+        <ul>
+            <li><h2 class="frst">First Course</h2></li>
+            <li><h2 class="qnt1">Quantity</h2></li>
+            <li><h2 class="fprc">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2 class="tst">Second Course</h2></li>
+            <li><h2 class="qnt2">Quantity</h2></li>
+            <li><h2 class="prc">Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2>Dessert</h2></li>
+            <li><h2 class="qnt3">Quantity</h2></li>
+            <li><h2>Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul><br>
+        <ul>
+            <li><h2>Drinks</h2></li>
+            <li><h2 class="qnt4">Quantity</h2></li>
+            <li><h2>Price</h2></li>
+        </ul>
+        <ul>
+            <select>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <input class="sq" type="number" name="" id="">
+            <div class="sq"></div>
+        </ul>
+    </div>
+    </form>
+    <form id="third" class="off">
+        <div class="main">
+            <ul>
+                <li><h2 class="frst">First Course</h2></li>
+                <li><h2 class="qnt1">Quantity</h2></li>
+                <li><h2 class="fprc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2 class="tst">Second Course</h2></li>
+                <li><h2 class="qnt2">Quantity</h2></li>
+                <li><h2 class="prc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Dessert</h2></li>
+                <li><h2 class="qnt3">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Drinks</h2></li>
+                <li><h2 class="qnt4">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul>
+        </div>
+    </form>
+    <form id="four" class="off">
+        <div class="main">
+            <ul>
+                <li><h2 class="frst">First Course</h2></li>
+                <li><h2 class="qnt1">Quantity</h2></li>
+                <li><h2 class="fprc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2 class="tst">Second Course</h2></li>
+                <li><h2 class="qnt2">Quantity</h2></li>
+                <li><h2 class="prc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Dessert</h2></li>
+                <li><h2 class="qnt3">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Drinks</h2></li>
+                <li><h2 class="qnt4">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul>
+        </div>
+    </form>
+    <form id="five" class="off">
+        <div class="main">
+            <ul>
+                <li><h2 class="frst">First Course</h2></li>
+                <li><h2 class="qnt1">Quantity</h2></li>
+                <li><h2 class="fprc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2 class="tst">Second Course</h2></li>
+                <li><h2 class="qnt2">Quantity</h2></li>
+                <li><h2 class="prc">Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Dessert</h2></li>
+                <li><h2 class="qnt3">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul><br>
+            <ul>
+                <li><h2>Drinks</h2></li>
+                <li><h2 class="qnt4">Quantity</h2></li>
+                <li><h2>Price</h2></li>
+            </ul>
+            <ul>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input class="sq" type="number" name="" id="">
+                <div class="sq"></div>
+            </ul>
+        </div>
+    </form>
+    <div class="buttons">
+        <button class="b1" type='submit' id="save" style="visibility: hidden;"><a href='home.html'>Save</a></button>
+    </div>
+<script src="order.js"></script>
+</body>
+</html>
+

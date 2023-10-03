@@ -15,26 +15,26 @@
 <body>
     <nav class="flex justify-between items-center">
         <ul>
-            <li class="logo"><img src="pizza.png"><h1>SMAKOLIK</h1></li>
+            <li class="logo"><a href="index.html"><img src="pizza.png"><h1>SMAKOLIK</h1></a></li>
         </ul>
         <ul class="sm:block md:block lg:hidden">
         <ion-icon class="burger" name="menu" onclick="onToggle(this)"></ion-icon>
         </ul>
         <ul id="test" class="sm:hidden md:hidden lg:flex">
-          <li>HOME</li>
-          <li>EDIT PAGE</li>
-          <li>PROFIL</li>
+          <li><a href='history.html'>HISTORY</a></li>
+          <li><a href='profile.html'>PROFILE</a></li>
+          <li><a href='order.html'>ORDER</a></li>
       </ul>
         <ul class="navItems hidden sm:w-[320px] mb:flex-row z-10 flex-col items-center bg-white absolute top-full w-full">
-            <li>HOME</li>
-            <li>EDIT PAGE</li>
-            <li>PROFIL</li>
-            <li>LOG IN</li>
-            <li>SIGN UP</li>
+          <li><a href='history.html'>HISTORY</a></li>
+          <li><a href='profile.html'>PROFILE</a></li>
+          <li><a href='order.html'>ORDER</a></li>
+          <li><a href='log.html'>LOG IN</a></li>
+          <li><a href='user.html'>SIGN UP</a></li>
         </ul>
         <ul class="logins sm:hidden md:hidden lg:inline-block">
-            <li class="login"><a href='#'>LOG IN</a></li>
-            <li class="signup"><a href='#'>SIGN UP</a></li>
+            <li class="login"><a href='log.html'>LOG IN</a></li>
+            <li class="signup"><a href='user.html'>SIGN UP</a></li>
         </ul>
     </nav>
     <div class="main">
