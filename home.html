@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    type="image/png"
+    rel="Shortcut Icon"
+    href="pizza.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav class="flex justify-between items-center">
+        <ul>
+            <li class="logo"><img src="pizza.png"><h1>SMAKOLIK</h1></li>
+        </ul>
+        <ul class="sm:block md:block lg:hidden">
+        <ion-icon class="burger" name="menu" onclick="onToggle(this)"></ion-icon>
+        </ul>
+        <ul id="test" class="sm:hidden md:hidden lg:flex">
+          <li>HOME</li>
+          <li>EDIT PAGE</li>
+          <li>PROFIL</li>
+      </ul>
+        <ul class="navItems hidden sm:w-[320px] mb:flex-row z-10 flex-col items-center bg-white absolute top-full w-full">
+            <li>HOME</li>
+            <li>EDIT PAGE</li>
+            <li>PROFIL</li>
+            <li>LOG IN</li>
+            <li>SIGN UP</li>
+        </ul>
+        <ul class="logins sm:hidden md:hidden lg:inline-block">
+            <li class="login"><a href='#'>LOG IN</a></li>
+            <li class="signup"><a href='#'>SIGN UP</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <h1>Menu</h1>
+        <div class="title">
+            <h2>First course</h2>
+        </div>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-row">
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control prev" href="#">&#10094;</a>
+          <a class="carousel-control next" href="#">&#10095;</a>
+        </div>
+    </div><br>
+    <div class="main">
+        <div class="title">
+            <h2>Second course</h2>
+        </div>
+       <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-row">
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control prev" href="#">&#10094;</a>
+          <a class="carousel-control next" href="#">&#10095;</a>
+        </div>
+    </div><br>
+    <div class="main">
+        <div class="title">
+            <h2>Desert</h2>
+        </div>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-row">
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control prev" href="#">&#10094;</a>
+          <a class="carousel-control next" href="#">&#10095;</a>
+        </div><br>
+    <div class="main">
+        <div class="title">
+            <h2>Drinks</h2>
+        </div>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-row">
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 1">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 3">
+                <div class="name">Test</div>
+              </div>
+              <div class="carousel-item">
+                <img src="bg.jpg" alt="Image 2">
+                <div class="name">Test</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control prev" href="#">&#10094;</a>
+          <a class="carousel-control next" href="#">&#10095;</a>
+        </div>
+    </div> 
+    <script>
+const carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach((carousel) => {
+  const carouselInner = carousel.querySelector('.carousel-inner');
+  const carouselRow = carouselInner.querySelector('.carousel-row');
+  const carouselItems = carouselRow.querySelectorAll('.carousel-item');
+  const prevBtn = carousel.querySelector('.prev');
+  const nextBtn = carousel.querySelector('.next');
+
+  let currentItem = 0;
+  const carouselWidth = carousel.offsetWidth;
+  const itemWidth = carouselWidth / 3;
+  const maxItems = Math.floor(carouselRow.offsetWidth / itemWidth);
+
+  function showItem(index) {
+    carouselInner.style.transform = `translateX(-${index * itemWidth}px)`;
+  }
+
+  prevBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (currentItem > 0) {
+      currentItem--;
+      showItem(currentItem);
+    }
+  });
+
+  nextBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (currentItem < carouselItems.length - maxItems) {
+      currentItem++;
+      showItem(currentItem);
+    }
+  });
+
+  showItem(currentItem);
+});
+
+const navItems = document.querySelector('.navItems');
+
+function onToggle(e) {
+  e.name = e.name === 'menu' ? 'close' : 'menu';
+  if (e.name == 'close') {
+    navItems.classList.remove('hidden'), navItems.classList.add('flex');
+  } else {
+    navItems.classList.add('hidden');
+  }
+}
+    </script>
+</body>
+</html>

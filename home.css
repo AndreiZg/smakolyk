@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@500&family=Josefin+Sans:wght@200&family=Kanit:wght@300&family=Roboto:wght@300&family=Ubuntu:ital,wght@1,500&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(2640625.jpg);
+    background-size: cover;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(238, 64, 64);
+}
+
+.test{
+  background-color: red;
+  font-size: 50px;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(238, 64, 64);
+}
+
+nav h1{
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: rgb(127, 24, 24);
+}
+
+nav i{
+    font-size: 20px;
+}
+
+nav .login,nav .signup{
+    color: white;
+    background-color: rgb(238, 64, 64);
+    border-radius: 10px;
+    border: 1px solid rgb(238, 64, 64);
+}
+
+nav .login:hover,nav .signup:hover{
+    background-color:white;
+    color: black;
+    border: 1px solid rgb(238, 64, 64);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+nav .login,.signup{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+nav img{
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    left: 150px;
+}
+
+/* Menu */
+.main h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 64, 64);
+    text-align: center;
+    margin-top: 5px;
+    width: 50%;
+    margin: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.title h2{
+    font-size: 30px;
+    background-color: rgb(134, 35, 35);
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.carousel {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+    background-color: rgb(238, 64, 64);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 130px;
+    display: flex;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-row {
+    display: flex;
+  }
+  
+  .carousel-item {
+    flex: 0 0 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    visibility: hidden;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+
+  .name{
+    position: absolute;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(91, 90, 90);
+  border-radius: 10px;
+}
+.burger {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+.show-menu{
+  display: none;
+}
+
+@media (max-width:640px) {
+  .mobile\:screen {
+    visibility: hidden;
+  }
+  #test{
+    visibility: hidden;
+  }
+  .logins{
+    visibility: hidden;
+  }
+  .logo{
+    margin-top: 10px;
+  }
+  .logo h1{
+    font-size: 20px;
+  }
+  .logo img{
+    width: 60px;
+    height: 50px;
+    left: 110px;
+  }
+}
+
+@media (max-width:750px) {
+  .carousel-control.prev {
+    left: 0;
+    font-size: 15px;
+  }
+  
+  .carousel-control.next {
+    right:0;
+    font-size: 15px;
+  }
+
+  .carousel{
+    width: 90%;
+    height: 100px;
+  }
+
+  .carousel-item {
+    font-size: 30px;
+  }
+
+  .main h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+}
